@@ -1,0 +1,17 @@
+var = input("insira uma informação: ")
+
+var_primit = (type(var))
+var_space =  var.isspace()
+var_numeric = var.isdigit()
+var_alfabetci = var.isalpha()
+var_maiuscula = var.isupper()
+var_minuscula = var.islower()
+var_captalizada = var.capitalize()
+
+print(f"o tipo primitivo desse valor é: {var_primit}")
+print(f"Só tem espaços?: {var_space}")
+print(f"É um número?: {var_numeric}")
+print(f"É alfabético?: {var_alfabetci}")
+print(f"Está em maiúsculas?: {var_maiuscula}")
+print(f"Está em minúsculas?: {var_minuscula}")
+print(f"Está capitalizada?: {var_captalizada}")
